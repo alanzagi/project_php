@@ -1,0 +1,57 @@
+body {
+    background-image: url(https://i.pinimg.com/236x/91/45/24/9145240c437b76168ce89925220b312a.jpg);
+    background-size: cover;
+  }
+  
+  .container {
+    width: 17em;
+    margin: auto;
+    border-radius: 0.9em;
+    background-color: white;
+    opacity: .9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .container h2 {
+    margin-top: 2em;
+    padding-top: 2.8em;
+    text-align: center;
+  }
+  
+  ul {
+    text-align: center;
+    position: relative;
+    right: 1em;
+  }
+  
+  label {
+    position: absolute;
+    display: none;
+  }
+  
+  input {
+    box-sizing: border-box;
+    margin-bottom: 1.5em;
+    border-radius: 0.5em;
+    border: 0.5px solid grey;
+    height: 3.2em;
+    padding-left: 1em;
+  }
+  
+  .login {
+    padding: 1em;
+    width: 10em;
+    border: none;
+    border-radius: 1.5em;
+    background-color: rgb(58, 168, 211);
+    color: white;
+    margin-top: 1em;
+    margin-bottom: 3.5em;
+  }
+  
+  /* Responsive */
+  @media (min-width:1025px) {
+    .container h2 {
+      margin-top: 5em;
+    }
+  }
