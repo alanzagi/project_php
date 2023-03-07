@@ -1,0 +1,52 @@
+body {
+  background-image: url(../img/94-944298_9-16-wallpaper-anime.jpg);
+  background-size: cover;
+}
+
+main {
+  margin: 6em auto;
+  background-color: white;
+  border-radius: 1em;
+  text-align: center;
+  opacity: 0.9;
+}
+
+main h2 {
+  padding-top: 1.8em;
+}
+
+main p {
+  font-size: 0.9em;
+  position: relative;
+  bottom: 0.7em;
+  margin-bottom: -1.5em;
+}
+
+/* Styles form area*/
+form ul {
+  margin-right: 2.5em;
+}
+
+form ul li input {
+  padding: 1em;
+  margin-top: 1em;
+  outline-color: rgb(54, 162, 250);
+}
+
+form ul li button {
+  width: 9em;
+  height: 3.3em;
+  background-color: rgb(54, 162, 250);
+  border: none;
+  color: white;
+  border-radius: 1.5em;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+/* Responsive */
+@media (min-width: 480px) {
+  main {
+    width: 20em;
+  }
+}
